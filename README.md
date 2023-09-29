@@ -1,4 +1,4 @@
-# Building Java Projects with Maven
+##Building Java Projects with Maven
 This guide walks you through using Maven to build a simple Java project.
 
 ## What you’ll build
@@ -49,7 +49,7 @@ First you’ll need to setup a Java project for Maven to build. To keep the focu
     package hello;
     public class Greeter {
         public String sayHello() {
-            return "Hello world!";
+            return "Hello world#";
         }
     }
     ```
@@ -250,3 +250,4 @@ Here’s the completed `pom.xml` file:
 + To run this project run the following command.
 
     `java -cp target/jb-hello-world-maven-0.1.0.jar hello.HelloWorld`
+ 
